@@ -13,8 +13,8 @@ module.exports = {
             html += '<script type="text/javascript" src="'+urls[i]+'"></script>'
           }
         }
+        page.content = _html + page.content;
       }
-      page.content = _html + page.content;
       return page;
     }
   }
