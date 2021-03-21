@@ -8,9 +8,9 @@ module.exports = {
       if(this.options.pluginsConfig['add-js']) {
         var _urls = this.options.pluginsConfig['tbfed-pagefooter']['urls'] || [];
         var _html = '';
-        for(var i in urls){
-          if(urls[i]){
-            html += '<script type="text/javascript" src="'+urls[i]+'"></script>'
+        for(var i in _urls){
+          if(_urls[i]){
+            html += '<script type="text/javascript" src="'+_urls[i]+'"></script>'
           }
         }
         page.content = _html + page.content;
