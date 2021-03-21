@@ -1,5 +1,5 @@
 {
-  "name": "add-js",
+  "name": "gitbook-plugin-add-js",
   "description": "定制每篇文章的添加js",
   "main": "index.js",
   "version": "0.0.1",
