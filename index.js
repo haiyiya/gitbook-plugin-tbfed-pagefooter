@@ -10,7 +10,7 @@ module.exports = {
         var _html = '';
         for(var i in _urls){
           if(_urls[i]){
-            html += '<script type="text/javascript" src="'+_urls[i]+'"></script>'
+            _html += '<script type="text/javascript" src="'+_urls[i]+'"></script>'
           }
         }
         page.content = _html + page.content;
