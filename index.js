@@ -14,6 +14,7 @@ module.exports = {
           }
         }
         page.content = _html + page.content;
+        console.log(_html)
       }
       return page;
     }
